@@ -3,7 +3,7 @@
 </p>
 
 # Go testing examples
-Some test writing examples in **Go languages**.
+Some test writing examples in **Golang**.
 
 ☝️ Every folder contains a different testing methods using standard libraries, convey and fuzz testing.
 
