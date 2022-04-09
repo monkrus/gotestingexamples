@@ -7,7 +7,7 @@ Some test writing examples in **Go languages**.
 
 ☝️ Every folder contains a different testing methods using standard libraries, convey and fuzz testing.
 
-👉 f We tried to keep it as simple as possible to make the logic behind the test as clear as possible.
+👉 We tried to keep it as simple as possible to make the logic behind the test as clear as possible.
 
 -----
 
