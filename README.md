@@ -12,11 +12,14 @@ Some test writing examples in **Golang**.
 -----
 
 ## How to run test:
-- checkout to selected folder e.g. `$ cd compare`
-- 💡 to create `go.mod` follow 
-    - `$ go mod init compare/m` to initialize a v0 or v1 module
-    - `$ go mod tidy` to create go.mod file
+- make sure you are in selected folder e.g. `cd compare`
 - run the test by `$ go test` ✅
+
+### Troubleshooting:
+- in case you have outdated dependencies in `go.mod` file
+  - run `$ go mod tidy`
+- if you have conflicts between your local Go 1.xx version and version in `go.mod` file
+  - create new `go.mod` file by `$ go mod init main`
 
 -----
 
@@ -29,8 +32,3 @@ Some test writing examples in **Golang**.
 **Open result in browser:**
 - run test `$ go test -coverprofile=coverage.out`
 - open in browser `$ go tool cover -html=coverage.out`
- 
-
-
-
-
