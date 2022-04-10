@@ -12,11 +12,14 @@ Some test writing examples in **Golang**.
 -----
 
 ## How to run test:
-- checkout selected folder e.g. `$ cd compare`
-- create `go.mod` 💡
-    - `$ go mod init example.com/m` to initialize a v0 or v1 module
-    - `$ go mod tidy` to create go.mod file
-- finally, run the test by `$ go test` ✅
+- make sure you are in root folder
+- run the test by `$ go test` ✅
+
+### Troubleshooting:
+- in case you have outdated dependencies in `go.mod` file 
+  - run `$ go mod tidy`
+- if you have conflicts between your local Go 1.xx version and version in `go.mod` file 
+  - create new `go.mod` file by `$ go mod init main`
 
 ## Check test coverage:
 if you want to double-check if your cover 100% or not
