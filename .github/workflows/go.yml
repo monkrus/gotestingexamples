@@ -1,21 +1,22 @@
-on: [push, pull_request]
-name: Golang Tests
+name: Go
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
-  test:
+
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - uses: actions/checkout@v3
 
       - name: Set up Go
         uses: actions/setup-go@v3
         with:
-          go-version: ^1.18
-
-      - name: Check out code into the Go module directory
-        uses: actions/checkout@v3
+          go-version: 1.17
 
       - name: Run all tests
       - run: go test ./...
