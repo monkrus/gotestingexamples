@@ -12,16 +12,25 @@ Some test writing examples in **Golang**.
 -----
 
 ## How to run test:
-- checkout selected folder e.g. `$ cd compare`
-- create `go.mod` 💡
-    - `$ go mod init example.com/m` to initialize a v0 or v1 module
+- checkout to selected folder e.g. `$ cd compare`
+- 💡 to create `go.mod` follow 
+    - `$ go mod init compare/m` to initialize a v0 or v1 module
     - `$ go mod tidy` to create go.mod file
-- finally, run the test by `$ go test` ✅
+- run the test by `$ go test` ✅
+
+-----
 
 ## Check test coverage:
-if you want to double-check if your cover 100% or not
-- run `$ go test -cover` 😎
+> if you want to check that your code cover is 100%
+
+**Print result in console:**
+- run `$ go test -cover -v` 😎
+
+**Open result in browser:**
+- run test `$ go test -coverprofile=coverage.out`
+- open in browser `$ go tool cover -html=coverage.out`
  
+
 
 
 
