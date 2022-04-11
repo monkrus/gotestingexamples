@@ -3,7 +3,7 @@
 </p>
 
 # Go testing examples
-Some test writing examples in **Golang**.
+Some test writing examples in **Golang**.Fuzz testing will only work starting with Go 1.18.
 
 ☝️ Every folder contains a different testing method using standard libraries, convey and fuzz testing.
 
@@ -12,6 +12,9 @@ Some test writing examples in **Golang**.
 ## How to run test:
 - make sure you are in selected folder e.g. `cd compare`
 - run the test by `$ go test` ✅
+## For fuzz test :
+- run `go test` or `go test -v`
+- run `go test -run=TestName`(for specific test)
 
 
 ## Troubleshooting:
