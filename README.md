@@ -5,7 +5,7 @@
 # Go testing examples
 Some test writing examples in **Golang**.
 
-☝️ Every folder contains a different testing methods using standard libraries, convey and fuzz testing.
+☝️ Every folder contains a different testing method using standard libraries, convey and fuzz testing.
 
 👉 We tried to keep it as simple as possible to make the logic behind the test as clear as possible.
 
@@ -15,22 +15,12 @@ Some test writing examples in **Golang**.
 
 
 ### Troubleshooting:
-- in case you have outdated dependencies in `go.mod` file
+- in case you have an outdated dependencies in `go.mod` file
   - run `$ go mod tidy`
 - if you have conflicts between your local Go 1.xx version and version in `go.mod` file
-  - create new `go.mod` file by `$ go mod init main`
-  
-
-=======
-
-### Troubleshooting:
-- in case you have outdated dependencies in `go.mod` file
-  - run `$ go mod tidy`
-- if you have conflicts between your local Go 1.xx version and version in `go.mod` file
-  - create new `go.mod` file by `$ go mod init main`
-  
-
-
+  - create new `go.mod` file by `$ go mod init nameoftheproject`
+ 
+ 
 ## Check test coverage:
 > if you want to check that your code cover is 100%
 
