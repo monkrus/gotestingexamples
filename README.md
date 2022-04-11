@@ -25,7 +25,7 @@ Some test writing examples in **Golang**.Fuzz testing will only work starting wi
  
  
 ## Check test coverage:
-> if you want to check that your code cover is 100%
+- to check that your code is 100% covered
 
 **Print result in console:**
 - run `$ go test -cover -v` 😎
