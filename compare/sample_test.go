@@ -5,7 +5,7 @@ import (
 )
 
 func TestTestEq(t *testing.T) {
-	a := []string{"strawberry", "raspberry", "test"}
+	a := []string{"strawberry", "raspberry"}
 	b := []string{"strawberry", "raspberry"}
 
 	for i := 0; i < len(a); i++ {
