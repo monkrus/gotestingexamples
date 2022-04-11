@@ -21,6 +21,16 @@ Some test writing examples in **Golang**.
   - create new `go.mod` file by `$ go mod init main`
   
 
+=======
+
+### Troubleshooting:
+- in case you have outdated dependencies in `go.mod` file
+  - run `$ go mod tidy`
+- if you have conflicts between your local Go 1.xx version and version in `go.mod` file
+  - create new `go.mod` file by `$ go mod init main`
+  
+
+
 ## Check test coverage:
 > if you want to check that your code cover is 100%
 

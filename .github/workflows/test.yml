@@ -1,0 +1,24 @@
+name: Run all tests
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.17
+
+      - name: Check out code into the Go module directory
+        uses: actions/checkout@v2
+
+      - name: Run all test
+        run: go test -v ./...
