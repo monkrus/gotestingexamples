@@ -14,8 +14,8 @@ Some test writing examples in **Golang**.
 - run the test by `$ go test` ✅
 
 
-### Troubleshooting:
-- in case you have an outdated dependencies in `go.mod` file
+## Troubleshooting:
+- if you have an outdated dependencies in `go.mod` file
   - run `$ go mod tidy`
 - if you have conflicts between your local Go 1.xx version and version in `go.mod` file
   - create new `go.mod` file by `$ go mod init nameoftheproject`
