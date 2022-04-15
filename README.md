@@ -9,11 +9,6 @@ Some test writing examples in **Golang**.Fuzz testing will only work starting wi
 
 👉 We tried to keep it as simple as possible to make the logic behind the test as clear as possible.
 
-
-# Tips & Tricks
-- (using 'Goland' Jetbrains) generate test template in two click 
-[video](https://www.jetbrains.com/go/guide/tips/generate-a-test-for-an-element/) 
-
 ## How to run test:
 - make sure you are in selected folder e.g. `cd compare`
 - run the test by `$ go test` ✅
@@ -50,3 +45,8 @@ List of tests Examples:
 - [x] [hello-world](hello-world)  
 - [x] [math](math)  
 - [x] [simple](simple)
+- [ ] ...
+
+# Tips & Tricks
+- (using 'Goland' Jetbrains) generate test template in two clicks
+  [video](https://www.jetbrains.com/go/guide/tips/generate-a-test-for-an-element/) 
