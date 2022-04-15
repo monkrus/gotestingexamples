@@ -9,6 +9,11 @@ Some test writing examples in **Golang**.Fuzz testing will only work starting wi
 
 👉 We tried to keep it as simple as possible to make the logic behind the test as clear as possible.
 
+
+# Tips & Tricks
+- (using 'Goland' Jetbrains) generate test template in two click 
+[video](https://www.jetbrains.com/go/guide/tips/generate-a-test-for-an-element/) 
+
 ## How to run test:
 - make sure you are in selected folder e.g. `cd compare`
 - run the test by `$ go test` ✅
@@ -33,3 +38,15 @@ Some test writing examples in **Golang**.Fuzz testing will only work starting wi
 **Open result in browser:**
 - run test `$ go test -coverprofile=coverage.out`
 - open in browser `$ go tool cover -html=coverage.out`
+
+
+List of tests Examples:
+-
+> here is the list of folder with functions implementation and written test for them
+---
+- [x] [compare array string](compare-array-string)  
+- [x] [convey](convey)  
+- [x] [fuzz](fuzz)  
+- [x] [hello-world](hello-world)  
+- [x] [math](math)  
+- [x] [simple](simple)
