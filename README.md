@@ -35,9 +35,9 @@ Some test writing examples in **Golang**.Fuzz testing will only work starting wi
 - open in browser `$ go tool cover -html=coverage.out`
 
 
-List of tests Examples:
+List of test examples:
 -
-> here is the list of folder with functions implementation and written test for them
+> here is the list of folders with function implementation and corresponding test 
 ---
 - [x] [compare array string](compare-array-string)  
 - [x] [convey](convey)  
