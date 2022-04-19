@@ -1,3 +1,5 @@
+// supports only v1.18 Go
+
 package main
 
 import (
